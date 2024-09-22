@@ -2,13 +2,13 @@ body {
     background-color: white;
     color: #001D00;
     font-family: 'Work Sans';
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0% 25% 5% 25%;
 }
 
 
 #title {
-    font-size: 7.5rem;
+    /* font-size: 7.5rem; */
+    font-size: 5rem;
     font-weight: 700;
     letter-spacing: .15rem;
     color: #003200;
