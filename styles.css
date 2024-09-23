@@ -2,11 +2,21 @@ body {
     background-color: white;
     color: #001D00;
     font-family: 'Work Sans';
-    margin: 0% 25% 5% 25%;
+    /* margin: 0% 25% 5% 25%; */
 }
 
 hgroup {
     margin-bottom: 3rem;
+    height: 50%;
+    /* width: 100vw; */
+    background-color: #004900;
+    padding: 0% 25% 5% 25%;
+}
+
+.header-author {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
 }
 
 #title {
@@ -14,8 +24,9 @@ hgroup {
     font-size: 5rem;
     font-weight: 700;
     letter-spacing: .15rem;
-    color: #003200;
+    color: white;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 h2 {
@@ -26,6 +37,10 @@ p, blockquote {
     line-height: 150%;
 }
 
+blockquote{
+    color: #004900;
+}
+
 .large-quote{
     font-size: 2rem;
 }
@@ -34,6 +49,7 @@ p, blockquote {
     font-style: normal;
     font-size: large;
     font-weight: 600;
+    color: white;
 }
 
 hr {
@@ -52,4 +68,8 @@ span {
 
 .excerpt-link {
     color: #001D00;
+}
+
+.body-div {
+    margin: 0% 25% 5% 25%;
 }
