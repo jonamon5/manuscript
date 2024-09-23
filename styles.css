@@ -18,7 +18,7 @@ h2 {
     font-weight: bold;
 }
 
-p {
+p, blockquote {
     line-height: 150%;
 }
 
@@ -35,6 +35,14 @@ hr {
 
 span {
     font-weight: bold;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
+}
+
+.r-letter {
+    font-size: 3rem;
+}
+
+a {
+    color: #001D00;
 }
 
