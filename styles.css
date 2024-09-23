@@ -22,7 +22,7 @@ p {
     line-height: 150%;
 }
 
-address {
+.author {
     font-style: normal;
     font-size: large;
     font-weight: 600;
@@ -31,5 +31,10 @@ address {
 hr {
     border: 5px solid #003200;
     border-radius: 10px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
