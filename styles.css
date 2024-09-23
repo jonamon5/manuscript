@@ -5,6 +5,9 @@ body {
     margin: 0% 25% 5% 25%;
 }
 
+hgroup {
+    margin-bottom: 3rem;
+}
 
 #title {
     /* font-size: 7.5rem; */
@@ -12,6 +15,7 @@ body {
     font-weight: 700;
     letter-spacing: .15rem;
     color: #003200;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -22,6 +26,10 @@ p, blockquote {
     line-height: 150%;
 }
 
+.large-quote{
+    font-size: 2rem;
+}
+
 .author {
     font-style: normal;
     font-size: large;
@@ -29,7 +37,7 @@ p, blockquote {
 }
 
 hr {
-    border: 5px solid #003200;
+    border: 3px solid #003200;
     border-radius: 10px;
 }
 
@@ -42,7 +50,6 @@ span {
     font-size: 3rem;
 }
 
-a {
+.excerpt-link {
     color: #001D00;
 }
-
