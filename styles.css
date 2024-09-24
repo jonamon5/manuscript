@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+/* HEAD  */
+
 .header-div {
     background-color: #004900;
     padding: 0% 25% 1% 25%;
@@ -26,17 +28,33 @@ body {
     margin-bottom: 0;
 }
 
+/* BODY */
+
+.body-div {
+    margin: 0% 25% 5% 25%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.r-letter {
+    font-size: 3rem;
+}
+
+blockquote{
+    color: #004900;
+    line-height: 150%;
+}
+
 h2 {
     font-size: 2rem;
     font-weight: bold;
 }
 
-p, blockquote {
-    line-height: 150%;
-}
 
-blockquote{
-    color: #004900;
+p {
+    line-height: 150%;
 }
 
 .large-quote{
@@ -51,26 +69,20 @@ blockquote{
 }
 
 hr {
-    border: 3px solid #003200;
-    border-radius: 10px;
+    border: 3px solid #004900;
+    border-radius: .625rem;
 }
 
-span {
-    font-weight: bold;
-}
+/* FOOTER */
 
-.r-letter {
-    font-size: 3rem;
+footer {
+    margin-top: 2rem;
 }
 
 .excerpt-link {
     color: #001D00;
 }
 
-.body-div {
-    margin: 0% 25% 5% 25%;
-}
-
 .excerpt-div {
-    margin-top: 10px;
+    margin-top: .625rem;
 }
