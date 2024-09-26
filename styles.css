@@ -32,6 +32,8 @@ body {
 
 .body-div {
     margin: 0% 25% 5% 25%;
+    max-width: 800px;
+    margin: auto;
 }
 
 span {
