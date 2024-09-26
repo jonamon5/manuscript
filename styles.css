@@ -9,7 +9,7 @@ body {
 
 .header-div {
     background-color: #004900;
-    padding: 0% 25% 1% 25%;
+    padding: 0% 24% 1% 24%;
     width: 100vw;
     display: table-cell;
     vertical-align: middle;
@@ -31,8 +31,9 @@ body {
 /* BODY */
 
 .body-div {
-    margin: 0% 25% 5% 25%;
-    max-width: 800px;
+    /* margin: 0% 25% 5% 25%; */
+    /* max-width: 800vw; */
+    max-width: 900px;
     margin: auto;
 }
 
