@@ -9,14 +9,16 @@ body {
 
 .header-div {
     background-color: #004900;
-    padding: 0% 24% 1% 24%;
+    /* padding: 0% 24% 1% 24%; */
     width: 100vw;
     display: table-cell;
     vertical-align: middle;
 }
 
 .header-author {
-    display: inline;
+    /* display: inline; */
+    max-width: 900px;
+    margin: auto;
 }
 
 
