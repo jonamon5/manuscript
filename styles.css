@@ -38,6 +38,7 @@ body {
     /* max-width: 800vw; */
     max-width: 900px;
     margin: auto;
+    margin-top: 2rem;
 }
 
 span {
@@ -48,10 +49,20 @@ span {
     font-size: 3rem;
 }
 
-blockquote{
+.original-blockquote {
     color: #004900;
     line-height: 150%;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
+    display: inline-block;
+    border: 5px solid #004900;
+    border-radius: .625rem;
+    padding: 1rem 4rem 1rem 4rem;
+    margin: 0;
+    border-radius: 10px 100px 10px 100px ;
+}
+
+.original-blockquote > p {
+    margin: .5rem;
 }
 
 h2 {
@@ -78,11 +89,30 @@ p {
 .response-blockquote {
     font-weight: bold;
     font-size: 1.5rem;
+    color: #004900;
 }
 
 hr {
     border: 3px solid #004900;
     border-radius: .625rem;
+}
+
+.article-title-div {
+    width: 25%;
+    float: left;
+}
+.article-title-div > h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.article-body-div {
+    width: 75%;
+    float: left;
+}
+
+.article-body-div > p {
+    margin-top: 0;
 }
 
 /* FOOTER */
