@@ -2,7 +2,6 @@ body {
     background-color: white;
     color: #001D00;
     font-family: 'Work Sans';
-    margin: 0;
 }
 
 /* HEAD  */
@@ -12,6 +11,8 @@ body {
     width: 100vw;
     display: table-cell;
     vertical-align: middle;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .header-author {
@@ -34,6 +35,19 @@ body {
     max-width: 900px;
     margin: auto;
     margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+p {
+    line-height: 150%;
+    font-size: 1.25em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 span {
@@ -60,16 +74,6 @@ span {
     margin: .5rem;
 }
 
-h2 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-
-p {
-    line-height: 150%;
-    font-size: 1.25em;
-}
 
 .large-quote{
     font-size: 2rem;
@@ -79,6 +83,7 @@ p {
     font-style: normal;
     font-weight: 600;
     color: white;
+    margin-top: 0;
 }
 
 .response-blockquote {
@@ -87,7 +92,6 @@ p {
     color: #004900;
     margin: 2rem 4rem 2rem 4rem;
 }
-
 
 hr {
     border: 3px solid #004900;
