@@ -131,6 +131,7 @@ footer {
 
 .excerpt-link {
     color: #001D00;
+    text-decoration: underline;
 }
 
 .time-div {
