@@ -97,19 +97,23 @@ hr {
     border-radius: .625rem;
 }
 
-.article-title-div {
-    width: 25%;
-    float: left;
+.article-container {
+    display: flex;
 }
+
+.article-title-div {
+    flex: 1;
+}
+
+.article-body-div {
+    flex: 3;
+}
+
 .article-title-div > h2 {
     padding: 0;
     margin: 0;
 }
 
-.article-body-div {
-    width: 75%;
-    float: left;
-}
 
 .article-body-div > p {
     margin-top: 0;
