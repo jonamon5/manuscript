@@ -150,3 +150,10 @@ footer {
 .excerpt-div {
     margin-top: .5rem;
 }
+
+.back-to-top {
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
