@@ -4,6 +4,11 @@ body {
     font-family: 'Work Sans', Arial, Helvetica, sans-serif;
 }
 
+::selection {
+    color: white;
+    background: #136207;
+  }
+
 /* HEAD  */
 
 .header-div {
@@ -156,4 +161,10 @@ footer {
     padding: 5px 10px 5px 10px;
     border: 2px solid white;
     border-radius: 5px;
+}
+
+.back-to-top:hover {
+    color: #004900;
+    border: 2px solid #004900;
+    background-color: white;
 }
